@@ -1,6 +1,6 @@
 {
-  "name": "@gzuidhof/go-npm",
-  "version": "0.1.13",
+  "name": "@compose-generator/go-npm",
+  "version": "0.9.0",
   "description": "Distribute and install Go binaries via NPM",
   "main": "index.js",
   "bin": {
@@ -15,15 +15,15 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gzuidhof/go-npm.git"
+    "url": "https://github.com/compose-generator/go-npm.git"
   },
-  "homepage": "https://github.com/gzuidhof/go-npm",
+  "homepage": "https://github.com/compose-generator/go-npm",
   "devDependencies": {
-    "esbuild": "^0.12.17",
-    "jest": "^24.5.0",
+    "esbuild": "^0.12.26",
+    "jest": "^27.1.1",
     "mkdirp": "^1.0.4",
     "request": "^2.88.2",
-    "tar": ">=4.4.2",
-    "unzipper": "0.10.10"
+    "tar": ">=6.1.11",
+    "unzipper": "0.10.11"
   }
 }
