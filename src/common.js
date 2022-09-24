@@ -143,8 +143,10 @@ function parsePackageJson() {
     binName += '.exe'
 
     url = url.replace(/{{win_ext}}/g, '.exe');
+    url = url.replace(/{{archive_ext}}/g, '.zip')
   } else {
     url = url.replace(/{{win_ext}}/g, '');
+    url = url.replace(/{{archive_ext}}/g, '.tar.gz')
   }
 
   // Interpolate variables in URL, if necessary
